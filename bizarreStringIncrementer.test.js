@@ -1,4 +1,4 @@
-import { bizarreStringIncrementer } from './bizarreStringIncrementer';
+const bizarreStringIncrementer = require('./bizarreStringIncrementer');
 
 describe('bizarreStringIncrementer', () => {
   it('bizarreStringIncrementer adds the number 1 if string does not end in a number', () => {
